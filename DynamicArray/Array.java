@@ -37,7 +37,7 @@ public class Array<E> {
     // 在index索引的位置插入一个新元素e
     public void add(int index, E e) {
         // 索引位置小于0 或者 大于数组中的元素 则抛出异常
-        if (index < 0 && index > size) {
+        if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed. Require index >= 0 and index <= size.");
         }
         //扩容
@@ -51,6 +51,7 @@ public class Array<E> {
         }
         data[index] = e;
         size++;
+
     }
 
     //在所有元素前面添加一个新元素
@@ -65,24 +66,25 @@ public class Array<E> {
 
     // 获取index索引的元素
     public E get(int index) {
-        if (index < 0 && index > size) {
+        if (index < 0 || index > size) {
             throw new IllegalArgumentException("Get failed. Index is illegal.");
         }
         return data[index];
     }
+
     // 获取数值中最后一个元素
-    public E getLast(){
+    public E getLast() {
         return get(size - 1);
     }
 
     // 获取数组中第一个元素
-    public E getFirst(){
+    public E getFirst() {
         return get(0);
     }
 
     // 修改index索引位置的元素
     public void set(int index, E e) {
-        if (index < 0 && index > size) {
+        if (index < 0 || index > size) {
             throw new IllegalArgumentException("Set failed. Index is illegal.");
         }
         data[index] = e;
@@ -111,7 +113,7 @@ public class Array<E> {
     // 从数组中删除index位置的元素,返回删除的元素
     public E remove(int index) {
         // >= 是因为 size是表示即将要存放数据的位置,是null的
-        if (index < 0 && index >= size) {
+        if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Remove failed. Index is illegal.");
         }
         // 删除

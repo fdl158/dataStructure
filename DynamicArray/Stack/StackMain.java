@@ -1,6 +1,5 @@
-package cn.delingw.Array.Stack;
+package cn.delingw.DynamicArray.Stack;
 
-import cn.delingw.Array.Stack.IStack;
 
 /**
  * @author delingw

@@ -1,11 +1,11 @@
-package cn.delingw.Array.LeetCode;
+package cn.delingw.LeetCode;
 
 import java.util.Stack;
 
 /**
  * @author delingw
  * @version 1.0
- * 有效的括号
+ * 20题、有效的括号
  */
 public class Stack20 {
     public boolean isValid(String s) {

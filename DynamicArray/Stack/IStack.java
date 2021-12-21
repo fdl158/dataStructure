@@ -1,4 +1,4 @@
-package cn.delingw.Array.Stack;
+package cn.delingw.DynamicArray.Stack;
 
 /**
  * @author delingw

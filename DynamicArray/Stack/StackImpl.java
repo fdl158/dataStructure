@@ -1,7 +1,7 @@
-package cn.delingw.Array.Stack;
+package cn.delingw.DynamicArray.Stack;
 
-import cn.delingw.Array.ObjectArray.Array;
 
+import cn.delingw.DynamicArray.Array;
 
 public class StackImpl<E> implements IStack<E> {
     private Array<E> array;

@@ -1,4 +1,4 @@
-package cn.delingw.Array.Queue;
+package cn.delingw.DynamicArray.Queue;
 
 /**
  * @author delingw

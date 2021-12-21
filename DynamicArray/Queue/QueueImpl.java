@@ -1,6 +1,7 @@
-package cn.delingw.Array.Queue;
+package cn.delingw.DynamicArray.Queue;
 
-import cn.delingw.Array.ObjectArray.Array;
+
+import cn.delingw.DynamicArray.Array;
 
 /**
  * @author delingw

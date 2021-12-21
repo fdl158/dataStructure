@@ -72,7 +72,7 @@ public class Array<E> {
         return data[index];
     }
 
-    // 获取数值中最后一个元素
+    // 获取数组中最后一个元素
     public E getLast() {
         return get(size - 1);
     }

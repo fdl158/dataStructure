@@ -1,4 +1,4 @@
-package cn.delingw.LeetCode;
+package cn.delingw.LeetCode.Stack20;
 
 import java.util.Stack;
 

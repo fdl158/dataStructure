@@ -92,7 +92,7 @@ public class LoopQueueImpl<E> implements ILoopQueue<E> {
     }
 
     @Override
-    public E getFont() {
+    public E getFront() {
         return data[front];
     }
 

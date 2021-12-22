@@ -14,7 +14,7 @@ public interface ILoopQueue<E> {
     E dequeue();
 
     //获取队头
-    E getFont();
+    E getFront();
 
     // 判断队列是否为空
     boolean isEmpty();

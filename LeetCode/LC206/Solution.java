@@ -7,6 +7,7 @@ package cn.delingw.LeetCode.LC206;
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
+        // 非递归方式
 //        ListNode pre = null;
 //        ListNode cur = head;
 //        while (cur != null) {
@@ -16,6 +17,7 @@ class Solution {
 //            cur = next;
 //        }
 //        return pre;
+    // 递归方式
         if (head == null || head.next == null) {
             return head;
         }
